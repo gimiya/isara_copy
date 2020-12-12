@@ -1,0 +1,2226 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    color: #333333;
+}
+
+header{
+    z-index: 1;
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+}
+header h1{
+    font-size: 10px;
+    margin: 0;
+}
+header p{
+    cursor: pointer;
+}
+.title{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 9px;
+    padding-left: 10px;
+    text-align: justify;
+}
+.title img{
+    width: 35%;
+}
+.request{
+    margin-left: auto;
+    background-color: #da6b64;
+    color: #ffffff;
+    border: solid 1px #da6b64;
+    font-size: 12px;
+    width: 73px;
+}
+.request figure{
+    margin: 0;
+    margin-top: 7px;
+}
+.request img{
+    width: 20px;
+}
+.request p{
+    margin: 0;
+}
+.request2{
+    display: none;
+}
+
+div{
+    text-align: center;
+}
+
+.main{
+    background-image: url(mainsp.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
+    padding-top: 0;
+    padding-bottom: 32px;
+}
+.main h2{
+    font-size: 17.5px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding-top: 20px;
+    line-height: 28px;
+}
+.main img{
+    width: 98%;
+    height: auto;
+    padding-top: 3px;
+    padding-bottom: 17px;
+}
+.main h3{
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    line-height: 16.5px;
+    margin: 0;
+}
+.contact{
+    background-color: #ebb94d;
+    color: #ffffff;
+    padding: 1px 20px;
+}
+.contact p{
+    margin: 0;
+    font-size: 15px;
+}
+.contactx{
+    letter-spacing: 3px;
+}
+.contact p.contact2{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+p.contact3{
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 25px;
+    border: solid 1px #ffffff;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #c7264e;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0;
+}
+.contact a{
+    display: block;
+    margin-bottom: 26px;
+    padding: 15px;
+    border: solid 1px #da6b64; 
+    border-radius: 45px;
+    background-color: #da6b64;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+.students p,.students span{
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.student{
+    margin-bottom: 20px;
+}
+
+.description{
+    padding: 30px 0 55px;
+    background-image: url(introbottom.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+}
+.de_key{
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    line-height: 40px;
+    position: relative;
+    padding: 25px 10px 15px;
+    margin: 0 10px 25px;
+}
+.de_key::before, .de_key::after{
+    content: "";
+    width: 26px;
+    height: 26px;
+    position: absolute;
+}
+.de_key::before {
+	border-left: solid 4px #ebb94d;
+    border-top: solid 4px #ebb94d;
+	top: 0;
+	left: 0;
+}
+.de_key::after {
+	border-right: solid 4px #ebb94d;
+    border-bottom: solid 4px #ebb94d;
+	bottom: 0;
+	right: 0;
+}
+.de_text{
+    font-size: 15px;
+    line-height: 24px;
+}
+.de_text p{
+    margin-bottom: 30px;
+}
+.de_text .de_text2{
+    margin-bottom: 24px;
+}
+.de-ex span{
+    font-weight: bold;
+    background: linear-gradient(transparent 60%, #ebb94d 0%);
+}
+
+.about{
+    background-color: #fef5e0;
+    padding: 5px;
+}
+.about_round{
+    display: inline-block;
+    background-color: #ebb94d;
+    border-radius: 50%;
+    color: #ffffff;
+    padding: 20px 5px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    position: relative;
+    margin: 0;
+    margin-bottom: -110px;
+    bottom: 33px;
+}
+.about_key{
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    line-height: 40px;
+    position: relative;
+    padding: 30px 10px 20px;
+    margin: 17px 5px 14px;
+}
+.about_key::before, .about_key::after{
+    content: "";
+    width: 26px;
+    height: 26px;
+    position: absolute;
+}
+.about_key::before {
+	border-left: solid 4px #ebb94d;
+    border-top: solid 4px #ebb94d;
+	top: 0;
+	left: 0;
+}
+.about_key::after {
+	border-right: solid 4px #ebb94d;
+    border-bottom: solid 4px #ebb94d;
+	bottom: 0;
+	right: 0;
+}
+.about h2{
+    font-size: 14.5px;
+    letter-spacing: 2px;
+    line-height: 24px;
+}
+.fives{
+    background-color: #ffffff;
+    border: solid 2px #ebb94d;
+    margin: 30px 15px 65px;
+    padding: 0 0;
+    padding-bottom: 25px;
+}
+.fives h2{
+    margin: 0;
+    margin-top: 10px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 24px;
+}
+.five{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7px;
+    padding-left: 17px;
+}
+.fskill{
+    width: 32%;
+    margin-top: 11px;
+}
+.fskill figure{
+    box-sizing: border-box;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.fskill img{
+    width: 32px;
+}
+.fskill:nth-of-type(2){
+    margin-left: 7px;
+}
+.fskill .hand{
+    width: 31px;
+}
+.fskill .memo{
+    width: 24px;
+}
+.fskill:nth-of-type(3){
+    padding-right: 7px;
+}
+.fskill:nth-of-type(4),.fskill:nth-of-type(5){
+    margin: 0;
+}
+.fskill:nth-of-type(4){
+    margin-right: 3px;
+    margin-top: 20px;
+}
+.fskill:nth-of-type(5){
+    margin-top: 20px;
+    margin-right: 22px;
+}
+.fskill .star{
+    width: 31px;
+}
+.fskill .connection{
+    width: 75px;
+}
+.fskill p{
+    margin: 0;
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+
+.steps{
+    background-image: url(aboutsecondbgsp.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 36px 30px;
+    font-size: 12px;
+}
+.steps h2{
+    font-size: 17px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    padding-left: 3px;
+    margin-bottom: 19px;
+}
+.steps p{
+    font-size: 13px;
+    line-height: 20px;
+}
+.step{
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+    background: #ffffff;
+    margin-bottom: 15px;
+    padding-bottom: 2px;
+}
+.step:nth-of-type(1){
+    margin-top: 30px;
+}
+.step p{
+    color: black;
+    font-weight: bold;
+}
+.steps span{
+    color: #ebb94d;
+}
+.step .steptx{
+    margin: 14px 49px;
+    border: solid 1px #ebb94d;
+    border-radius: 5px;
+    background: #ebb94d;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 17px;
+}
+.step .steptxt{
+    margin: 0;
+    font-size: 12px;
+}
+.step .steptxt2{
+    margin-top: 4px;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+
+.important{
+    background-color: #016ea9;
+    color: #ffffff;
+    padding: 18px 0;
+    font-size: 13px;
+    letter-spacing: 0.6px;
+    line-height: 19px;
+}
+.important p{
+    margin: 0;
+}
+.important span{
+    color: #ebb94d;
+}
+
+.skills{
+    padding: 20px 30px;
+    letter-spacing: 1px;
+}
+.skills h1{
+    margin-top: 27px;
+    margin-bottom: 43px;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+}
+.skills span{
+    font-size: 13px;
+}
+.skills2{
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    line-height: 24px;
+}
+.skill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill figure{
+    display: flex;
+    box-sizing: border-box;
+    margin: 0 5px;
+}
+.skill img{
+    width: 66px;
+    margin-bottom: 8px;
+}
+.skills3{
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.merits{
+    background-color: #fef5e0;
+    padding: 30px 0;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+.merit_key{
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    line-height: 40px;
+    position: relative;
+    padding: 25px 10px 10px;
+    margin: 2px 10px 16px;
+}
+.merit_key::before, .merit_key::after{
+    content: "";
+    width: 26px;
+    height: 26px;
+    position: absolute;
+}
+.merit_key::before {
+	border-left: solid 4px #ebb94d;
+    border-top: solid 4px #ebb94d;
+	top: 0;
+	left: 0;
+}
+.merit_key::after {
+	border-right: solid 4px #ebb94d;
+    border-bottom: solid 4px #ebb94d;
+	bottom: 0;
+	right: 0;
+}
+.merit_key h1{
+    margin: 0;
+    margin-top: 5px;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+.merit_key h2{
+    margin: 0;
+    font-size: 15px;
+    line-height: 23px;
+}
+.merits figure,.merits img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+.merit{
+    margin: 18px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.merit h3{
+    color: #ebb94d;
+    margin: 0;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+.merit p{
+    text-align: left;
+    margin: 8px 0;
+    padding: 0 20px;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    line-height: 19px;
+}
+.add{
+    border: solid 2px #ebb94d;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: 33px 20px 15px;
+    padding: 0 10px 10px 10px;
+}
+.add h1{
+    color: #ebb94d;
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-size: 17px;
+    letter-spacing: 2.5px;
+}
+.add h2{
+    margin-top: 10px;
+    margin-bottom: 0;
+    letter-spacing: 1.5px;
+    line-height: 24px;
+}
+.add p{
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+.addcom{
+    padding: 0 10px;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 19px;
+}
+
+.members{
+    background-image: url(teacherbg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 10px;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+.members h1{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 17px;
+}
+.members h2{
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+}
+.member{
+    border: solid 3px #ffffff;
+    margin-top: 120px;
+    padding: 10px;
+}
+.member h3,.member h4{
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+}
+.member h3{
+    margin-top: 15px;
+}
+.member h4{
+    margin-top: 11px;
+}
+.members p{
+    text-align: left;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+.member figure{
+    position: relative;
+    margin: 0;
+    margin-bottom: -110px;
+    bottom: 98px;
+}
+.member img{
+    border-radius: 100px;
+    width: 120px;
+}
+.advisor{
+    margin-bottom: 20px;
+    line-height: 19px;
+}
+
+.question{
+    background-color: #ebb94d;
+    color: #ffffff;
+    padding: 10px 5px;
+    letter-spacing: 1px;
+}
+.question h1{
+    display: inline-block;
+    border: solid 1px #ffffff;
+    background: #ffffff;
+    border-radius: 200px;
+    padding: 14px 13px;
+    color: #ebb94d;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 30px;
+}
+.q_key{
+    position: relative;
+    padding: 10px;
+    margin: 0 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    line-height: 40px;
+}
+.q_key::before, .q_key::after{
+    content: "";
+    width: 26px;
+    height: 26px;
+    position: absolute;
+}
+.q_key::before {
+	border-left: solid 4px #ffffff;
+    border-top: solid 4px #ffffff;
+	top: 0;
+	left: 0;
+}
+.q_key::after {
+	border-right: solid 4px #ffffff;
+    border-bottom: solid 4px #ffffff;
+	bottom: 0;
+	right: 0;
+}
+
+.triangle{
+    border-top: 15px solid #ebb94d;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    margin-left: auto;
+    margin-right: auto;
+    width: 0;
+    height: 0;
+}
+
+.voice{
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+.voice h1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.voice h2{
+    font-size: 12px;
+}
+.voice p{
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0;
+}
+
+.comments figure{
+    margin: 0;
+}
+.comments img{
+    border: solid 3px #ebb94d;
+    width: 110px;
+}
+.commented{
+    padding: 0 10.1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.commentxt{
+    flex-direction: column;
+    margin-left: 15px;
+    letter-spacing: 1.5px;
+}
+.commentxt p,.commentxt a{
+    text-align: left;
+    margin: 10px 0;
+    color: #777777;
+    font-style: italic;
+}
+.commentxt p{
+    /* margin-top: 0; */
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 22px;
+}
+.commentxt a{
+    display: block;
+    font-size: 12px;
+    letter-spacing: 1.4px;
+}
+
+.curriculum{
+    background-image: url(classbgsp.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding-top: 33px;
+    letter-spacing: 1px;
+}
+.curriculum h1{
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+.curriculum h2{
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+}
+.curris{
+    margin-top: 31px;
+    padding: 0 10px;
+}
+.curri{
+    background-color: #ffffff;
+    border: solid 2px #016ea9;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.curri h3{
+    background-color: #016ea9;
+    border-radius: 5px;
+    color: #ffffff;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 15px;
+    letter-spacing: 1.5px;    
+}
+.curri2{
+    background-color: #ffffff;
+    color: #000000;
+}
+.curri2 p{
+    border-bottom: solid 1px #e5e5e5;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+.support{
+    background-color: #016ea9;
+    color: #ffffff;
+    margin-top: 35px;
+    padding: 6px 0;
+    letter-spacing: 1.5px;
+}
+.support p{
+    font-size: 15px;
+    line-height: 24px;
+}
+.lines{
+    padding: 15px;
+    letter-spacing: 1px;
+}
+.linetitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linetitle i{
+    margin-top: 2px;
+    margin-right: 2px;
+    font-size: 14.5px;
+}
+.linelist{
+    display: none;
+}
+.flowline1,.flowline2{
+    display: none;
+}
+.lines h1{
+    font-size: 18px;
+}
+ul.line{
+    padding: 0;
+}
+.line li{
+    background-color: #fef5e0;
+    border-radius: 5px;
+    list-style:none;
+    margin: 4px 0;
+    padding: 4px 0;
+}
+.lineaccordion{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    padding: 0 15px;
+    font-size: 1em;
+    font-weight: bold;
+}
+.lineaccordion h2{
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+.lineaccordion figure{
+    margin: 0;
+    margin-right: 15px;
+}
+.lineaccordion img{
+    vertical-align: bottom;
+    width: 35px;
+    height: 35px;
+}
+.lineaccordion:hover{
+    text-decoration:underline;
+}
+.lineaccordion:after {
+    content: "";
+    position: absolute;
+    right: 20px;
+    top: 38%;
+    transition: all 0.2s ease-in-out;
+  /*   要素の動きを指定 */
+    
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-top: solid 4px #000;
+    border-right: solid 4px #000;
+    
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+  /* transform: rotateで要素の角度を指定 */
+}
+.lineaccordion.open:after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    /* top: 45%; */
+    top: 25%;
+  /*   .openクラスがついた時の要素の角度を指定 */
+}
+.lineanswer{
+    display: none;
+    padding: 5px 15px;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    line-height: 19.5px;
+}
+.answer3{
+    font-weight: 100;
+    letter-spacing: 0;
+    line-height: 19px;
+}
+
+.reason{
+    background-image: url(bangkokbgsp.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 23px 15px;
+    text-align: left;
+}
+.reason h1{
+    text-align: center;
+    letter-spacing: 3px;
+}
+.reasontail{
+    margin: 0 20px;
+    text-align: left;
+}
+.reason p{
+    font-size: 11px;
+}
+.reasontxt{
+    margin-top: 13px;
+    line-height: 19px;
+}    
+.reasontail p{
+    text-align: left;
+    font-size: 12px;
+}
+.reasonlist{
+    margin-top: 20px;
+}
+.reasonlist p{
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+.reason h2{
+    margin-top: 22px;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    line-height: 24px;
+}
+.benefits{
+    background-color: #f7c32f;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.benefitgift{
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+.benefitgift i{
+    font-size: 15px;
+}
+.benefittxt{
+    margin-top: 26px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    line-height: 19px;
+}
+.benefittxt span{
+    font-weight: 100;
+}
+.benefitpeople{
+    position: relative;
+    bottom: -30px;
+    background-color: #f7c32f;
+    margin: 0 auto;
+    width: 250px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+.benefitpeople p{
+    margin-bottom: 0;
+}
+.benefittxt span,.benefitbox p{
+    color: #ffffff;
+}
+.benefit{
+    border: solid 2px #ffffff;
+    margin: 0 15px;
+    padding: 20px 2px;
+}
+.benefitbox{
+    margin: 30px 45px;
+}
+.benefitbox h3{
+    border: solid #ffffff;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #ebb94d;
+    float: left;
+    margin: 0 auto;
+    margin-right: 14px;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+}
+.benefitbox p{
+    padding: 8px 0;
+    text-align: left;
+    font-size: 13px;
+}
+.benefitboxbg{
+    display: none;
+}
+.purpose{
+    background-image: url(specialdetailsp.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 20px 10px;
+    letter-spacing: 1.5px;
+}
+.purpose h1{
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 28px;
+}
+.purpose p{
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+.key{
+    position: relative;
+    padding: 10px;
+    margin: 0 10px;
+    line-height: 40px;
+    margin-top: 43px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.key::before, .key::after{
+    content: "";
+    width: 28px;
+    height: 28px;
+    position: absolute;
+}
+.key::before {
+	border-left: solid 4px #ffffff;
+    border-top: solid 4px #ffffff;
+	top: 0;
+	left: 0;
+}
+.key::after {
+	border-right: solid 4px #ffffff;
+    border-bottom: solid 4px #ffffff;
+	bottom: 0;
+	right: 0;
+}
+.purposetxt{
+    margin-bottom: 45px;
+}
+
+.message{
+    text-align: justify;
+    padding: 20px 7px;
+    letter-spacing: 1.5px;
+}
+.message h1{
+    margin-top: 27px;
+    margin-bottom: 41px;
+    font-size: 18px;
+}
+.message h2{
+    font-size: 15px;
+    line-height: 24px;
+}
+.message figure{
+    box-sizing: border-box;
+    margin: 18px 0 10px;
+    text-align: center;
+}
+.message img{
+    vertical-align: bottom;
+    width: 385px;
+}
+.message h1,.message h2{
+    text-align: center;
+}
+.message p{
+    margin: 6px 0;
+    padding: 0 8px;
+    font-size: 14px;
+    line-height: 22px;
+}
+.messagelist{
+    margin: 30px 0;
+    padding: 0 8px;
+    text-align: left;
+}
+.messagelist p{
+    margin: 5px 0;
+    padding: 0;
+}
+p.lastmessage{
+    margin: 30px 0;
+}
+
+.claim{
+    background-color: #ebb94d;
+    padding: 30px 15px;
+    letter-spacing: 2px;
+}
+.claim h1{
+    margin: 17px 0 25px;
+    font-size: 18px;
+}
+.claim p{
+    margin-bottom: 23px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+.clain form{
+    display: block;
+}
+.claim input,.claim textarea{
+    width: 100%;
+    height: 55px;
+    margin: 13px 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.claim input[name="mail"]{
+    width: 95%;
+}
+.claim textarea{
+    margin-top: 35px;
+    width: 95%;
+    height: 100px;
+    letter-spacing: 2px;
+}
+.claim a{
+    display: block;
+    background-color: #da6b64;
+    border-radius: 100px;
+    color: #ffffff;
+    margin: 20px 0;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 23px;
+    letter-spacing: 10px;
+    text-decoration: none;
+}
+
+.ask{
+    text-align: left;
+    padding: 25px 10px;
+}
+#accordion{
+    margin-top: 28px;
+    text-align: left;
+    letter-spacing: 2px;
+    cursor: none;
+    
+}
+.ask h1{
+    margin-top: 23px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+.accordion-container {
+    position: relative;
+    width: 100%;
+    border-top: none;
+    outline: 0;
+}
+.accordion-container .accordion-title {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color: #000000;
+    background-color: #ffffff;
+    cursor: none;
+}
+.con h2{
+    display: inline;
+    text-align: left;
+}
+.accordion-title{
+    font-size: 14.5px;
+}
+.accordion-title i{
+    color: #016ea9;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.con{
+    position: relative;
+    border: solid 1px #e5e5e5;
+    margin: 5px 5px;
+    padding: 8px 10px;
+    padding-right: 40px;
+    line-height: 18px;
+}
+  
+.con::after{
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: 25%;
+    transition: all 0.2s ease-in-out;
+    display: block;
+    width: 7px;
+    height: 7px;
+    border-top: solid 4px #e5e5e5;
+    border-right: solid 4px #e5e5e5;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+  
+.con.open:after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 45%;
+}
+  
+.accordion-content {
+    display: none;
+    padding: 10px 20px;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 19px;
+}
+.ask ul{
+    padding: 0;
+}
+
+#page_top{
+    width: 46px;
+    height: 52px;
+    position: fixed;
+    right: 0;
+    bottom: 20px;
+    background: #ececec;
+    margin-right: 10px;
+}
+#page_top a{
+    position: relative;
+    display: block;
+    width: 47px;
+    height: 65px;
+    text-decoration: none;
+    cursor: none;
+}
+#page_top a::before{
+    content: "";
+    position: absolute;
+    right: 20px;
+    top: 38%;
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-top: solid 3px #000;
+    border-right: solid 3px #000;
+    
+    -webkit-transform: rotate(315deg);
+    transform: rotate(315deg);
+}
+
+footer{
+    background-color: #ececec;
+    color: #333333;
+    padding: 1px 25px 1px 1px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+}
+footer a{
+    text-decoration: none;
+}
+.copyright{
+    margin-top: 20px;
+}
+.sns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 35px;
+}
+.sns a{
+    margin: 0 1px;
+    padding: 2px 6px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 11px;
+}
+.tw{
+    border: solid 1px;
+    background-color: #1b95e0;
+}
+.fav,.she{
+    border: solid 1px;
+    background-color: #187ff2;
+}
+.sns a.she{
+    padding-right: 0;
+}
+
+/* タブレットここから */
+@media (min-width:769px){
+    header{
+        height: 75px;
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+    .title img{
+        margin-right: 7px;
+        width: 127px;
+    }
+    .title h1{
+        margin-top: 25px;
+        font-size: 12px;
+    }
+    .request{
+        display: none;
+    }
+    .request2{
+        background-color: #da6b64;
+        border-radius: 30px;
+        border: solid 1px #da6b64;
+        color: #ffffff;
+        margin: 16px 10px;
+        margin-left: auto;
+        padding: 0 40px;
+        font-size: 12px;
+    }
+    .request2 p{
+        margin: 10px 0 0;
+    }
+    .main{
+        padding: 80px 0 120px;
+        background-image: url(main.jpg);
+    }
+    .main figure{
+        margin: 0;
+    }
+    .main img{
+        padding: 5px 0 33px;
+        width: 31%;
+    }
+    .main h2{
+        padding-top: 17px;
+        font-size: 24px;
+        letter-spacing: 1.5px;
+        line-height: 48px;
+    }
+    .main h3{
+        font-size: 14px;
+    }
+
+    .contact{
+        padding: 10px 20px 20px;
+    }
+    .contactx{
+        letter-spacing: 0.5px;
+    }
+    p.contact3{
+        margin-bottom: 15px;
+        letter-spacing: 0.5px;
+    }
+    .contact .contact_a{
+        margin-left: 60px;
+        margin-right: 60px;
+        padding: 23px;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+    }
+    .contact_a br{
+        display: none;
+    }
+
+    .description{
+        padding-bottom: 155px;
+    }
+    .student{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+    .student p,.student span{
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+    .contact .tw{
+        background-color: #1b95e0;
+        border: #1b95e0;
+    }
+    .contact .fav,.contact .she{
+        background-color: #187ff2;
+        border: #187ff2;
+    }
+    .de_key{
+        font-size: 24px;
+        margin: 29px 82px 40px;
+        padding: 35px 0 25px;
+    }
+    .de_key br{
+        display: none;
+    }
+    .de_key::before,.de_key::after{
+        width: 45px;
+        height: 45px;
+    }
+    .de_text{
+        letter-spacing: 0.5px;
+    }
+    .de_text br{
+        display: none;
+    }
+    .de_text .brsp{
+        display: block;
+    }
+    .de_text .de_text1{
+        margin-bottom: 25px;
+    }
+    .de_text .de_text2{
+        margin: 0;
+    }
+    .de_text .de_text3{
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+
+    .about_round{
+        bottom: 50px;
+        padding: 30px 13px;
+        font-size: 14px;
+    }
+    .about_key{
+        margin: 42px 77px 40px;
+        padding: 35px 10px 25px;
+        font-size: 24px;
+    }
+    .about_key::after,.about_key::before{
+        width: 45px;
+        height: 45px;
+    }
+    .about h2{
+        font-size: 14px;
+        letter-spacing: 1.5px;
+    }
+    .abou_focus br{
+        display: none;
+    }
+    .fives{
+        padding-bottom: 55px;
+    }
+    .fives h2{
+        margin-top: 30px;
+        letter-spacing: 1.5px;
+    }
+    .fives h2 br{
+        display: none;
+    }
+    .five{
+        flex-wrap: nowrap;
+        margin-top: 10px;
+    }
+    .fskill{
+        width: 14%;
+    }
+    .fskill img{
+        width: 60px;
+    }
+    .fskill .hand{
+        width: 70px;
+    }
+    .fskill .memo{
+        width: 45px;
+    }
+    .fskill .star{
+        width: 55px;
+    }
+    .fskill .connection{
+        width: 120px;
+    }
+    .fskill p{
+        font-size: 12px;
+    }
+    .steps{
+        background-image: url(aboutsecondbg.jpg);
+        padding-top: 67px;
+    }
+    .steps h2{
+        margin-bottom: 26px;
+        font-size: 23px;
+        letter-spacing: 2.5px;
+    }
+    .steps h2 br{
+        display: none;
+    }
+    .steps p{
+        font-size: 16px;
+        letter-spacing: 1.5px;
+    }
+    .steps p br{
+        display: none;
+    }
+    .step{
+        width: 40%;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 20px 0;
+    }
+    .step .steptx{
+        font-size: 16px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .step .steptxt{
+        margin: 20px 0;
+    }
+    .step .steptxt2{
+        font-size: 14px;
+    }
+    .important{
+        padding: 40px;
+        font-size: 17px;
+    }
+    .important p{
+        margin: 5px 0;
+    }
+    .important br{
+        display: none;
+    }
+    .skills h1{
+        margin-top: 40px;
+        font-size: 24px;
+    }
+    .skills2{
+        font-size: 15px;
+    }
+    .skills2 br{
+        display: none;
+    }
+    .skills3{
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .skill{
+        width: 880px;
+        margin: 50px 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .skill figure{
+        display: block;
+        margin: 0 10px;
+    }
+    .skill img{
+        width: 90%;
+    }
+    
+    .merits{
+        padding: 30px;
+    }
+    .merits h2 br{
+        display: none;
+    }
+    .merits1{
+        display: flex;
+    }
+    .merit_key{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .merit_key::before,.merit_key::after{
+        width: 45px;
+        height: 45px;
+    }
+    .merit_key h1{
+        font-size: 25px;
+    }
+    .merit_key h2{
+        font-size: 14px;
+    }
+    .merit{
+        padding: 0;
+        width: 100%;
+    }
+    .merits img {
+        width: 100%;
+        height: 180px;
+    }
+    .merit h3{
+        font-size: 16px;
+    }
+    .merit p{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .add{
+        padding: 35px;
+    }
+    .add h1{
+        font-size: 23px;
+    }
+    .add h2{
+        font-size: 14px;
+    }
+    .add p{
+        font-size: 13px;
+        letter-spacing: 0.5px;
+        line-height: 24px;
+    }
+    .addcom{
+        font-size: 11px;
+    }
+    .addcom br{
+        display: none;
+    }
+
+    .memberlist{
+        display: flex;
+        max-width: 1170px;
+        margin: 50px 25px 0;
+    }
+    .member{
+        width: 33%;
+        /* height: auto; */
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .member figure{
+        margin-bottom: -160px;
+        bottom: 160px;
+    }
+    .member img{
+        width: 190px;
+    }
+    .member p{
+        margin-left: 25px;
+        margin-right: 25px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    .question{
+        padding: 22px;
+        padding-bottom: 30px;
+    }
+    .question h1{
+        border-radius: 100%;
+        margin-bottom: 0;
+        padding: 24px 14px;
+        font-size: 20px;
+    }
+    .q_key{
+        margin-left: 60px;
+        margin-right: 60px;
+        padding: 15px;
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    .q_key::before,.q_key::after{
+        width: 45px;
+        height: 45px;
+    }
+    .triangle{
+        border-top: 25px solid #ebb94d;
+        border-right: 25px solid transparent;
+        border-left: 25px solid transparent;
+    }
+
+    .voice h1{
+        margin: 16px 0 11px;
+        font-size: 24px;
+    }
+    .voice p{
+        font-size: 10px;
+        letter-spacing: 0.5px;
+    }
+    .voice p br{
+        display: none;
+    }
+    .commented{
+        align-items: stretch;
+        margin-top: 35px;
+        padding: 0;
+        width: 66%;
+    }
+    .commented img{
+        width: 205px;
+    }
+    .commentxt{
+        margin-left: 30px;
+    }
+    .commentxt p{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .commentxt a{
+        font-size: 15px;
+    }
+    .curriculum{
+        background-image: url(classbg.jpg);
+    }
+    .curris{
+        display: flex;
+        justify-content: center;
+    }
+    .curri{
+        margin: 0 15px;
+    }
+    .support{
+        padding: 25px;
+    }
+    .support p{
+        font-size: 14px;
+    }
+    .linetitle i{
+        font-size: 17px;
+    }
+    .linetitle h1{
+        font-size: 24px;
+    }
+    .linelist{
+        width: 95%;
+    }
+    .line{
+        margin: 0 45px;
+        margin-top: 25px;
+    }
+    .line li{
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        margin: 0;
+        padding: 20px 45px;
+    }
+    .lineaccordion{
+        flex-direction: column;
+        padding-top: 15px;
+        padding-left: 40px;
+        /* 以下、クリックイベント無効 */
+        pointer-events: none;
+    }
+    .lineaccordion figure{
+        margin: 0;
+    }
+    .lineaccordion img{
+        width: 98px;
+        height: auto;
+    }
+    .lineaccordion h2{
+        font-size: 18px;
+    }
+    .lineaccordion:after{
+        display: none;
+    }
+    .lineanswer{
+        display: block;
+        margin-left: 20px;
+        font-size: 13px;
+    }
+    .answer1,.answer2{
+        font-size: 14px;
+    }
+    .answer2{
+        margin: 15px 0;
+    }
+    .flowline1,.flowline2{
+        vertical-align: middle;
+        width: 50%;
+    }
+    .reason{
+        background-image: url(bangkokbg.jpg);
+        padding: 50px 40px;
+        padding-bottom: 20px;
+    }
+    .reason h1{
+        margin-left: 20px;
+        text-align: left;
+    }
+
+    .benefits{
+        padding-bottom: 40px;
+    }
+    .benefitgift{
+        margin-top: 50px;
+        font-size: 24px;
+        letter-spacing: 1.5px;
+    }
+    .benefittxt{
+        margin-top: 45px;
+    }
+    .benefittxt br{
+        display: none;
+    }
+    .benefitpeople{
+        width: 400px;
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+    .benefitpeople p{
+        margin-top: 60px;
+    }
+    .benefitpeople br{
+        display: none;
+    }
+    .benefit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 40px;
+        padding-bottom: 33px;
+    }
+    .benefitbox{
+        display: none;
+    }
+    .benefitboxbg{
+        background-color: #ffffff;
+        border-radius: 50%;
+        margin: 25px 23px;
+        width: 250px;
+        height: 250px;
+    }
+    .benefitboxbg h3{
+        margin: 55px 0 0;
+        color: #ebb94d;
+        font-size: 24px;
+        font-weight: 100;
+        letter-spacing: 2px;
+    }
+    .benefitboxbg p{
+        margin-top: 10px;
+        padding: 0 15px;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+    }
+
+    .purpose{
+        background-image: url(specialdetail.jpg);
+        padding-top: 45px;
+        padding-bottom: 40px;
+    }
+    .purpose h1 br,.purpose h2 br{
+        display: none;
+    }
+    .purpose h1{
+        font-size: 24px;
+    }
+    .purpose p{
+        font-size: 14px;
+        letter-spacing: 1.5px;
+        line-height: 25px;
+    }
+    .purpose p .brsp{
+        display: none;
+    }
+    .key{
+        margin: 40px 73px 20px;
+        padding: 15px;
+        font-size: 24px;
+    }
+    .key::before,.key::after{
+        width: 45px;
+        height: 45px;
+    }
+
+    .message h1{
+        margin: 43px 0 35px;
+        font-size: 24px;
+    }
+    .message h2{
+        font-size: 14px;
+    }
+    .message h2 br{
+        display: none;
+    }
+    .messageflex{
+        margin-top: 65px;
+        display: flex;
+        
+    }
+    .message figure{
+        margin: 0 25px 0 18px;
+    }
+    .message img{
+        width: 215px;
+    }
+    .mecomment{
+        padding: 0 10px;
+        text-align: left;
+    }
+    .message p{
+        font-size: 13px;
+    }
+    .messagelist{
+        margin: 20px 0;
+    }
+    p.lastmessage{
+        margin-top: 10px;
+    }
+
+    .claim{
+        padding: 30px 155px;
+    }
+    .claim h1{
+        font-size: 23px;
+    }
+    .claim input[name="mail"],.claim textarea{
+        width: 100%;
+    }
+
+    .ask{
+        padding: 25px 55px;
+    }
+    .ask h1{
+        font-size: 26px;
+    }
+    .con{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding: 20px 10px;
+    }
+    .con::after{
+        top: 40%;
+        right: 30px;
+    }
+    .accordion-title{
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .accordion-title i{
+        margin: 0 2px;
+    }
+
+    #page_top a:before{
+        width: 15px;
+        height: 15px;
+        border-top: solid 5px #000000;
+        border-right: solid 5px #000000;
+    }
+}
+/* タブレットここまで */
+
+/* PCここから */
+@media (min-width:1191px){
+    .title{
+        margin-left: 90px;
+    }
+    .title h1{
+        margin-bottom: 7px;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+    }
+    .request2{
+        margin-right: 85px;
+        padding: 0 45px;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    .main{
+        padding: 70px 0;
+    }
+    .main h2{
+        margin-top: 20px;
+        padding: 0;
+        font-size: 28px;
+        line-height: 53px;
+    }
+    .main img{
+        width: 23%;
+    }
+    .main h3{
+        margin: 5px 0;
+        font-size: 20px;
+    }
+
+    .contact{
+        padding: 15px 0;
+    }
+    p.contact3{
+        padding: 0;
+        font-size: 18px;
+    }
+    p.contact2{
+        font-size: 21px;
+    }
+    .contact .contact_a{
+        border-radius: 60px;
+        margin: 35px 170px 65px;
+        padding: 30px 0;
+        font-size: 29px;
+        letter-spacing: 1px;
+    }
+    .student p,.student span{
+        font-size: 23px;
+    }
+    .description{
+        background-size: cover;
+        padding: 40px 0 105px;
+    }
+    .de_key{
+        margin-top: 0;
+        margin-left: 255px;
+        margin-right: 255px;
+        font-size: 28px;
+        letter-spacing: 1.5px;
+    }
+    .de_text{
+        font-size: 20px;
+        letter-spacing: 1.5px;
+        line-height: 32px;
+    }
+    .about_key{
+        margin: 20px 250px 40px;
+        font-size: 28px;
+    }
+    .about h2{
+        font-size: 20px;
+    }
+    .fives{
+        margin-left: 95px;
+        margin-right: 95px;
+    }
+    .fives{
+        margin-top: 40px;
+    }
+    .five{
+        margin-top: 20px;
+    }
+    .fskill{
+        width: 12%;
+    }
+    .steps{
+        padding-top: 48px;
+    }
+    .steps h2{
+        font-size: 27px;
+        margin-bottom: 35px;
+    }
+    .steps p{
+        font-size: 20px;
+        letter-spacing: 1.5px;
+    }
+    .step{
+        display: inline-block;
+        margin: 0 7px;
+        width: 28%;
+    }
+    .step .steptx{
+        padding: 2px 0;
+        font-size: 17px;
+    }
+    .important p{
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    .skills h1{
+        font-size: 28px;
+        letter-spacing: 2px;
+    }
+    .skills2{
+        font-size: 19px;
+    }
+    .skill{
+        margin: 40px 208px 30px;
+        width: 885px;
+    }
+
+    .merit_key{
+        margin-left: 220px;
+        margin-right: 220px;
+    }
+    .merit_key h1{
+        font-size: 27px;
+        letter-spacing: 2px;
+    }
+    .merit_key h2{
+        font-size: 20px;
+    }
+
+    .members h1{
+        margin-top: 60px;
+        margin-bottom: 35px;
+        font-size: 28px;
+    }
+    .members h2{
+        /* margin-top: 85px; */
+        font-size: 14px;
+    }
+    .members h2 br{
+        display: none;
+    }
+    .memberlist{
+        margin-top: 75px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .member{
+    }
+    .member img{
+        width: 200px;
+    }
+    .member h3,.member h4{
+        font-size: 16px;
+    }
+    .member p{
+        margin: 25px;
+        font-size: 15px;
+    }
+
+    .question h1{
+        padding: 24px 20px;
+        font-size: 15px;
+    }
+    .q_key{
+        margin-left: 230px;
+        margin-right: 230px;
+        font-size: 28px;
+        letter-spacing: 1.5px;
+    }
+
+    .voice h1{
+        font-size: 28px;
+    }
+    .voice h2{
+        font-size: 16px;
+    }
+    .voice p{
+        font-size: 15px;
+    }
+    .commented{
+        margin-top: 30px;
+        margin-left: 290px;
+        margin-right: 290px;
+    }
+    .commented img{
+        width: 240px;
+    }
+    .commentxt{
+        padding-right: 130px;
+    }
+
+    .support{
+        padding: 20px;
+    }
+    .support p{
+        font-size: 21px;
+        letter-spacing: 0.5px;
+        line-height: 30px;
+    }
+
+    .linetitle{
+        margin-top: 20px;
+    }
+    .linetitle i{
+        font-size: 22px;
+    }
+    .linetitle h1{
+        font-size: 28px;
+        letter-spacing: 1.5px;
+    }
+    .linelist{
+        margin: 25px 0;
+        width: 75%;
+    }
+    .line{
+        margin: 0 85px;
+    }
+    .answer1,.answer2,.answer3{
+        font-size: 16px;
+    }
+
+    .reason{
+        padding: 100px 80px;
+    }
+    .reason h1{
+        margin-top: 8px;
+    }
+    .reasontail p{
+        font-size: 15px;
+    }
+    .reasonlist p{
+        margin: 14px 0;
+        font-size: 16px;
+    }
+    .reason h2{
+        font-size: 20px;
+    }
+
+    .benefitgift,.benefitgift i{
+        font-size: 28px;
+    }
+    .benefit{
+        margin: 0 98px;
+    }
+    .benefitpeople{
+        margin-bottom: 20px;
+        width: 590px;
+        font-size: 27px;
+    }
+    .benefitpeople p{
+        margin-top: 38px;
+    }    
+    .benefittxt{
+        font-size: 14px;
+        letter-spacing: 1.5px;
+    }
+    .benefitboxbg{
+        margin: 25px 60px;
+    }
+
+    .purpose h1{
+        margin-bottom: 30px;
+        font-size: 28px;
+        letter-spacing: 1.5px;
+    }
+    .purpose p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .key{
+        margin: 45px 245px 30px;
+        font-size: 28px;
+    }
+
+    .messageflex{
+        margin: 20px auto;
+        max-width: 1000px;
+    }
+
+    .claim{
+        padding: 30px 270px;
+    }
+    .claim h1{
+        font-size: 27px;
+    }
+    .claim p{
+        font-size: 17px;
+    }
+
+    .ask{
+        padding: 25px 155px;
+    }
+    .ask h1{
+        margin-top: 35px;
+        font-size: 28px;
+    }
+    #accordion{
+        margin-top: 38px;
+    }
+    .con{
+        padding: 21px 10px;
+    }
+    .con h2{
+        font-size: 20px;
+    }
+
+    footer{
+        padding: 17px;
+    }
+    #page_top{
+        right: 40px;
+        bottom: 100px;
+        width: 70px;
+        height: 70px;
+    }
+    #page_top a:before{
+        top: 45%;
+        right: 4px;
+    }
+}
